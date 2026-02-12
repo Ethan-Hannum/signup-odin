@@ -18,6 +18,7 @@ body {
     height: 100%;
     flex: 0 1;
     margin: 0;
+    background-color: antiquewhite;
 }
 
 .splash {
@@ -41,4 +42,29 @@ img {
     display: flex;
     flex-direction: column;
     flex: auto;
+}
+
+.paragraph-container {
+    font-size: 24px;
+    font-weight: 550;
+    margin: 100px 150px 30px 50px;
+}
+
+.form-container,
+.login,
+button {
+    margin-left: 50px;
+}
+
+.form-container {
+    background-color: burlywood;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row div {
+    display: flex;
+    flex-direction: column;
 }
