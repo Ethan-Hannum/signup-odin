@@ -18,7 +18,7 @@ body {
     height: 100%;
     flex: 0 1;
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #fffcf2;
 }
 
 .splash {
@@ -49,15 +49,24 @@ img {
     font-weight: 550;
     margin: 100px 150px 30px 50px;
 }
-
-.form-container,
+.form-container p,
+.form-container .form-row,
 .login,
 button {
     margin-left: 50px;
 }
 
 .form-container {
-    background-color: burlywood;
+    background-color: #ccc5b9;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.form-container p {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 550;
+    font-size: 28px;
 }
 
 .form-row {
