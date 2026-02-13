@@ -72,6 +72,7 @@ button {
 
 .form-row {
     display: flex;
+    gap: 112px;
 }
 
 .form-row div {
@@ -85,4 +86,15 @@ button {
     border: none;
     border-radius: 5px;
     box-shadow: 1px 3px 5px #b1b0b0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    appearance: none;
+    width: 135%;
+    height: 24px;
+    border: 1px solid #424141;
+    border-radius: 3px;
+    background-color: #ccc5b9;
 }
