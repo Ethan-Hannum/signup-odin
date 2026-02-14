@@ -123,3 +123,11 @@ a {
 input[type="password"]:invalid {
     border: 1px solid red;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 4px 5px #b1b0b0;
+}
